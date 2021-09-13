@@ -1,127 +1,196 @@
-@font-face {
-    font-family: "Bertha Melanie";
-    src: url('BerthaMelanie.ttf');
-}
-
-@font-face {
-    font-family: "Hometown Personal";
-    src: url('HometownPersonalUse.ttf');
-}
-
-body {
-    margin: 0%;
-    background-image: linear-gradient(to bottom right, #5BAB93, #6BA4BA);
-}
-
-img[alt="img-principal"] {
-    width: 100%;
-    height: 80%;
-}
-
-main {
-    margin-left: 6%;
-    margin-right: 6%;
-    background-color: white;
-}
-
-nav,
-footer {
-    background-color: #A4D2C7;
-}
-
-nav {
-    position: absolute;
-    top: 75%;
-    right: 6%;
-    left: 6%;
-}
-
-nav li {
-    display: inline-block;
-    padding-left: 2%;
-    font-size: 18px;
-    padding: 1%;
-}
-
-nav a:hover {
-    color: #5BAB93;
-    text-decoration: underline #6BA4BA 2px;
-}
-
-nav a:active {
-    color: #6BA4BA;
-}
-
-nav a:visited {
-    color: white;
-}
-
-img[alt="img-principal"] {
-    width: 100%;
-}
-
-#conteudo {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-img[alt="perfil"] {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img[alt="reta"] {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#perfil {
-    width: 49%;
-    margin-top: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#posts-principais {
-    margin-left: 2%;
-    margin-top: 3%;
-}
-
-footer {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    color: white;
-    text-align: center;
-    margin-bottom: 8px;
-}
-
-#menu {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-}
-
-#posts-principais img {
-    width: 90%;
-}
-
-h1 {
-    font-family: "Bertha Melanie";
-    font-size: 25px;
-}
-
-p {
-    font-family: "Palatino", "URW Palladio L", serif, monospace;
-}
-
-#posts-principais {
-    font-family: "Hometown Personal";
-}
+        @font-face {
+            font-family: "Bertha Melanie";
+            src: url('BerthaMelanie.ttf');
+        }
+        
+        @font-face {
+            font-family: "Sunday Best";
+            src: url('../SundayBest.ttf');
+        }
+        
+        @font-face {
+            font-family: "Winter Insight";
+            src: url('../WinterInsight.ttf');
+        }
+        
+        @font-face {
+            font-family: "Hometown Personal";
+            src: url('HometownPersonalUse.ttf');
+        }
+        
+        body {
+            margin: 0%;
+            background-image: linear-gradient(to bottom right, #5BAB93, #6BA4BA);
+        }
+        
+        img[alt="img-principal"] {
+            width: 100%;
+            height: 80%;
+        }
+        
+        main {
+            margin-left: 6%;
+            margin-right: 6%;
+            background-color: white;
+        }
+        
+        nav,
+        footer {
+            background-color: #A4D2C7;
+        }
+        
+        nav {
+            position: absolute;
+            top: 75%;
+            right: 6%;
+            left: 6%;
+        }
+        
+        nav li {
+            display: inline-block;
+            padding-left: 2%;
+            font-size: 18px;
+            padding: 1%;
+        }
+        
+        nav li:hover {
+            color: #6BA4BA;
+            text-decoration: overline #6BA4BA 3px;
+        }
+        
+        nav a:active {
+            color: #6BA4BA;
+        }
+        
+        nav a:visited {
+            color: white;
+        }
+        
+        img[alt="img-principal"] {
+            width: 100%;
+        }
+        
+        nav a {
+            color: white;
+        }
+        
+        #conteudo {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        img[alt="perfil"] {
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        img[alt="reta"] {
+            width: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #perfil {
+            width: 49%;
+            margin-top: 3%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 3%;
+        }
+        
+        #posts-principais {
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+        
+        footer {
+            padding-top: 4px;
+            padding-bottom: 4px;
+            color: white;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        
+        #menu {
+            margin-top: 0%;
+            margin-bottom: 0%;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        #posts-principais img,
+        img[alt="praia"] {
+            width: 90%;
+        }
+        
+        #perfil h1 {
+            font-family: "Bertha Melanie";
+            font-size: 25px;
+        }
+        
+        p {
+            font-family: "Palatino", "URW Palladio L", serif, monospace;
+        }
+        
+        #posts-principais {
+            font-family: "Hometown Personal";
+        }
+        
+        #inscreva-se button {
+            background-color: #5BAB93;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        h1 {
+            font-family: "Sunday Best";
+        }
+        /* personalizar a barra em geral, aqui estou definindo 9px de largura para a barra vertical
+e 4px de altura para a barra horizontal */
+        
+         ::-webkit-scrollbar {
+            width: 9px;
+            height: 4px;
+        }
+        /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo azul claro*/
+        
+         ::-webkit-scrollbar-track {
+            background: #6BA4BA;
+        }
+        /* aqui é a alça da barra, que demonstra a altura que você está na página
+    estou colocando um  verde  nela*/
+        
+         ::-webkit-scrollbar-thumb {
+            background: #A4D2C7;
+        }
+        
+        img[alt="rede"] {
+            width: 15%;
+        }
+        
+        #redes {
+            text-align: center;
+        }
+        
+        #redes img:hover {
+            cursor: pointer;
+        }
+        
+        nav {
+            position: sticky;
+            top: 0%;
+        }
+        
+        #topo {
+            position: fixed;
+            right: 2%;
+            bottom: 2%;
+            background-color: #5BAB93;
+            color: white;
+        }
