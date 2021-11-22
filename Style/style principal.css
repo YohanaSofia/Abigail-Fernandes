@@ -1,0 +1,356 @@
+        /*Ficou grande, mas ficamos confusas com 2 arquivos css diferentes kkk */
+        @font-face {
+            font-family: "Bertha Melanie";
+            src: url('Fontes/BerthaMelanie.ttf');
+        }
+        
+        @font-face {
+            font-family: "Sunday Best";
+            src: url('Fontes/SundayBest.ttf');
+        }
+        
+        @font-face {
+            font-family: "Winter Insight";
+            src: url('Fontes/WinterInsight.ttf');
+        }
+        
+        @font-face {
+            font-family: "Hometown Personal";
+            src: url('Fontes/HometownPersonalUse.ttf');
+        }
+        
+        body {
+            margin: 0%;
+            background-image: linear-gradient(to bottom right, #5BAB93, #6BA4BA);
+        }
+        
+        img[alt="img-principal"] {
+            width: 100%;
+            height: 80%;
+        }
+        
+        main {
+            margin-left: 6%;
+            margin-right: 6%;
+            background-color: white;
+        }
+        
+        nav,
+        footer {
+            background-color: #A4D2C7;
+        }
+        
+        nav {
+            position: absolute;
+            top: 75%;
+            right: 6%;
+            left: 6%;
+        }
+        
+        nav li {
+            display: inline-block;
+            padding-left: 2%;
+            font-size: 18px;
+            padding: 1%;
+        }
+        
+        nav li:hover {
+            color: #6BA4BA;
+            text-decoration: overline #6BA4BA 3px;
+        }
+        
+        nav a:active {
+            color: #6BA4BA;
+        }
+        
+        nav a:visited {
+            color: white;
+        }
+        
+        img[alt="img-principal"] {
+            width: 100%;
+        }
+        
+        nav a {
+            color: white;
+        }
+        
+        #conteudo {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        img[alt="perfil"] {
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        img[alt="reta"] {
+            width: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #perfil {
+            width: 49%;
+            margin-top: 3%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 3%;
+        }
+        
+        #posts-principais {
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+        
+        footer {
+            padding-top: 4px;
+            padding-bottom: 4px;
+            color: white;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        
+        #menu {
+            margin-top: 0%;
+            margin-bottom: 0%;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        #posts-principais img,
+        img[alt="praia"] {
+            width: 90%;
+        }
+        
+        #perfil h1 {
+            font-family: "Bertha Melanie";
+            font-size: 25px;
+            transition: color 670ms linear; 
+        }
+        #perfil h1:hover{
+            color: #5BAB93; 
+        }
+        
+        p {
+            font-family: "Palatino", "URW Palladio L", serif, monospace;
+            font-size: 17px;
+        }
+        
+        #posts-principais {
+            font-family: "Hometown Personal";
+        }
+        
+        #inscreva-se button {
+            background-color: #5BAB93;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        h1 {
+            font-family: "Sunday Best";
+        }
+        /* personalizar a barra em geral, aqui estou definindo 9px de largura para a barra vertical
+e 4px de altura para a barra horizontal */
+        
+         ::-webkit-scrollbar {
+            width: 9px;
+            height: 4px;
+        }
+        /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo azul claro*/
+        
+         ::-webkit-scrollbar-track {
+            background: #6BA4BA;
+        }
+        /* aqui é a alça da barra, que demonstra a altura que você está na página
+    estou colocando um  verde  nela*/
+        
+         ::-webkit-scrollbar-thumb {
+            background: #A4D2C7;
+        }
+        
+        img[alt="rede"] {
+            width: 15%;
+        }
+        
+        #redes {
+            text-align: center;
+        }
+        
+        #redes img:hover {
+            cursor: pointer;
+        }
+        
+        nav {
+            position: sticky;
+            top: 0%;
+        }
+        
+        #topo {
+            position: fixed;
+            right: 2%;
+            bottom: 2%;
+            background-color: #5BAB93;
+            color: white;
+        }
+
+        .cont {
+            margin-left: 3%;
+        }
+        
+        img[alt="conjunto-img"]{
+            width: 40%;
+        
+        }
+        img[alt="flor-reta"]{
+            display: block;
+            margin-left: auto;
+            margin-right:auto ; 
+        }
+        
+        
+         #topo{
+             opacity: 0;
+         }
+        
+         /* Responsividade do site */
+        
+          
+          @media (min-width: 481px) and (max-width: 697px) {                 
+            /* tela média:  */
+            body{
+                margin-left: 2%;
+                margin-right: 6%;
+            }
+            img[alt="img-principal"]{
+                width:105%;
+                height: 38%;
+            }
+            img[alt="perfil"]{
+                width: 75%;
+                height:37%;
+            }
+            #conteudo{
+                  display: block;
+            }
+        
+            #perfil{
+                  width:90%;
+                  margin-right: 4%;
+                  margin-left: 4%;
+            }
+            #topo{
+                opacity: 1;
+                border-radius: 50%;
+                background-color: white;
+                color: #6BA4BA;
+                padding: 3%;
+                
+            }
+            nav{
+                position: static;
+            }
+            img[alt="reta"], img[alt="flor-reta"]{
+                width:80%;
+                height: 16%
+            }
+          }
+          
+          @media (max-width: 480px) {
+            /* tela pequena:  */
+            body{
+                width: 90%;
+                margin-left: 2%;
+                margin-right: 6%;
+            }
+            img[alt="img-principal"]{
+                height: 35%;
+            }
+            img[alt="perfil"]{
+                width: 80%;
+                height:29%;
+            }
+            #conteudo{
+                  display: block;
+            }
+        
+            #perfil{
+                  width:90%;
+                  margin-right: 4%;
+                  margin-left: 4%;
+            }
+            #topo{
+                opacity: 1;
+                border-radius: 50%;
+                background-color: white;
+                color: #6BA4BA;
+                padding: 3%;
+                
+            }
+            nav{
+                position: static;
+            }
+            img[alt="reta"], img[alt="flor-reta"]{
+                width:80%;
+                height: 16%
+            }
+          }
+          #credito{
+              margin-left: 6%;
+              margin-right: 6%;
+          }
+          video{
+              width: 60%;
+              height: 80%;
+              padding: 3%;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+          }
+
+          img[alt="print"]{
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 45%;
+          }
+
+          img[alt="final"]{
+              width: 25%;
+              height: 40%;
+          }
+          #Imgs-button{
+              text-align: center;
+          }
+          img[alt="rede" ] {
+            position: relative;
+            animation: rodando .7s ease-in-out 0s infinite alternate;
+          }
+          
+          @keyframes rodando {
+            from { 
+                left: -12px; 
+                }
+            to{ 
+                right: -30px;
+             }
+          }
+          img[alt="perfil"]:hover {  
+            animation: girando 1s ease-in-out 0s infinite alternate;
+          }
+          
+          @keyframes girando {
+            from {
+              transform: rotate(50deg);
+            }
+            to {
+              transform: rotate(-20deg);
+            }
+          }
