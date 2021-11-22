@@ -4,7 +4,7 @@ O que fizemos:
 Funcionalidades do Site
 O site deve conter:
 
-Um nome, que não deve ser simplesmente o nome do assunto, mas algo que o envolva✔️
+Um nome, que não deve ser simplesmente o nome do assunto, mas algo que o envolva✔️<br>
 Um logotipo✔️
 Um layout bacana, mais rebuscado do que simplesmente uma coluna única (seu site tem que "ter um certo ritmo visual")✔️
 Um menu de navegação para navegar entre as páginas✔️
