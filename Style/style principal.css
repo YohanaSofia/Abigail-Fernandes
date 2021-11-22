@@ -306,9 +306,9 @@ e 4px de altura para a barra horizontal */
               margin-left: 6%;
               margin-right: 6%;
           }
-          video{
+            #videos iframe{
               width: 60%;
-              height: 80%;
+              height: 90%;
               padding: 3%;
               display: block;
               margin-left: auto;
