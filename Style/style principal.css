@@ -306,7 +306,7 @@ e 4px de altura para a barra horizontal */
               margin-left: 6%;
               margin-right: 6%;
           }
-            #videos iframe{
+            videos{
               width: 60%;
               height: 90%;
               padding: 3%;
@@ -326,9 +326,7 @@ e 4px de altura para a barra horizontal */
               width: 25%;
               height: 40%;
           }
-          #Imgs-button{
-              text-align: center;
-          }
+         
           img[alt="rede" ] {
             position: relative;
             animation: rodando .7s ease-in-out 0s infinite alternate;
